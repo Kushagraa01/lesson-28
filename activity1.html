@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>activity 1</title>
+</head>
+<body>
+    <h2>Type conversion</h2>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <script>
+        var a=20;
+        var b=30;
+        document.getElementById("p1").innerHTML=a+b;
+        document.getElementById("p2").innerHTML=a.toString()+String(b);
+        var str="Welcome to codingal";
+        document.getElementById("p3").innerHTML=str.search("to");
+        document.getElementById("p4").innerHTML = str.replace("codingal ","Javascript");
+    </script>
+
+</body>
+</html>
